@@ -1,0 +1,56 @@
+# Contributing
+
+Thanks for your interest in contributing! This file explains how to report issues and submit changes so your contributions can be reviewed and merged quickly.
+
+## Code of Conduct
+Be respectful and constructive. Treat maintainers and other contributors kindly.
+
+## How to report issues
+- Search existing issues first to avoid duplicates.
+- Provide:
+  - A clear title and description.
+  - Steps to reproduce (include input values used in the UI).
+  - Expected vs actual behavior.
+  - Environment (OS, Python version).
+  - Optional: screenshots or short GIFs.
+
+## How to contribute code (pull requests)
+1. Fork the repo and create a feature branch:
+   - git checkout -b fix/short-description
+2. Keep changes focused and add tests for functional changes.
+3. Run linters and tests locally:
+   - pip install -r requirements.txt
+   - flake8 .
+   - pytest
+4. Commit messages:
+   - Use present-tense short summary, e.g. `Fix: correct lift calculation` or `Feat: add physics module`
+   - Provide a longer description in the commit body if needed.
+5. Push the branch to your fork and open a PR against `main` (or the repo’s default branch).
+6. In your PR, describe what you changed and why. Reference related issues.
+
+## Branching & PR policy
+- Branch names: `feat/*`, `fix/*`, `chore/*`, `docs/*`.
+- Open PRs against `main`. Include tests for behavior changes.
+- Self-review your PR and ensure CI passes before requesting review.
+
+## Tests & Linting
+- Add tests under a `tests/` directory using pytest.
+- Keep physics logic in a separate module (e.g., `physics.py`) to make unit testing easy.
+- Lint with flake8 and format with black (optional).
+
+## Developer setup (local)
+1. Clone and install:
+   - git clone <repo-url>
+   - python -m venv .venv
+   - source .venv/bin/activate  # or .venv\Scripts\activate on Windows
+   - pip install -r requirements.txt
+2. Run the app:
+   - python flight_simulator.py
+3. Run tests:
+   - pytest
+
+## License
+By contributing you agree that your contributions will be licensed under the project's license (see LICENSE).
+
+## Contact / Questions
+Open an issue or mention maintainers in the PR if you need help.
