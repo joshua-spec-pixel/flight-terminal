@@ -62,17 +62,6 @@ Click "RUN SIMULATION" and watch the Aerodynamic Forces and Messages panels.
 - Controls are not validated strictly; invalid or missing inputs can produce errors.
 - `tkinter` may require separate installation on some platforms.
 
-## Suggested improvements (low to high effort)
-- Fix the thrust computation & CL calculation (see `flight_simulator_fixes.py`).
-- Improve input validation (disable Run until required fields are filled; provide min/max hints).
-- Avoid reusing variable names (e.g., reuse of `L` for lapse rate and lift).
-- Put physics code in a separate module to allow unit testing.
-- Add unit tests for the physics functions.
-- Add a requirements file, CI (GitHub Actions), and formatting checks (black/flake8).
-- Add a LICENSE (MIT if you want very open usage).
-- Add CONTRIBUTING.md and issue/PR templates.
-- Add screenshots and an animated GIF into `docs/images/` and reference them from README.
-
 ## Packaging & CI
 - Add a `requirements.txt` (or `pyproject.toml` if using Poetry) — even if minimal, mention required Python version.
 - Add a GitHub Actions workflow to run unit tests and linters on push/PR.
