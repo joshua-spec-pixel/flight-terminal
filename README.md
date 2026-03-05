@@ -72,7 +72,7 @@ Click "RUN SIMULATION" and watch the Aerodynamic Forces and Messages panels.
 3. Follow style and linting rules (consider adding a pre-commit config).
 
 ## License
-Choose a license (MIT recommended for small educational projects). Add a `LICENSE` file.
+See license file
 
 ## Contact
 If you'd like help testing or adding features, open an issue or PR in this repo.
