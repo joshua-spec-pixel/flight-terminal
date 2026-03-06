@@ -62,10 +62,6 @@ Click "RUN SIMULATION" and watch the Aerodynamic Forces and Messages panels.
 - Controls are not validated strictly; invalid or missing inputs can produce errors.
 - `tkinter` may require separate installation on some platforms.
 
-## Packaging & CI
-- Add a `requirements.txt` (or `pyproject.toml` if using Poetry) — even if minimal, mention required Python version.
-- Add a GitHub Actions workflow to run unit tests and linters on push/PR.
-
 ## Contributing
 1. Fork, create a branch, open a PR with a clear description of changes.
 2. Include tests for non-trivial logic changes.
