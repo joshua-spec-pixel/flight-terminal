@@ -13,13 +13,16 @@ This project is intended as an educational simulator/calculator for basic flight
 - Built-in reference windows: aircraft benchmark specs and flight-dynamics formulas.
 
 ## Screenshot 
+###v1 Screenshots
 <img width="960" height="720" alt="Slide1" src="https://github.com/user-attachments/assets/1f2e4bdc-8fc7-43d6-9b9c-41cf7a0a7138" />
 <img width="960" height="720" alt="Slide2" src="https://github.com/user-attachments/assets/77ce8789-457b-4174-b069-6a84fc7f49b2" />
-
-(not the end of the window)
 <img width="960" height="720" alt="Slide3" src="https://github.com/user-attachments/assets/230919ec-4d28-49aa-8b49-8209f2ef0232" />
 
-(not the end of the window)
+## v2 Updates
+- Added Diamond DA40 NG and Pilatus PC-21 aircraft
+- Wingspan is now a user input
+- Smarter warning system with stall detection
+- Cleaner separation of live vs static inputs
 
 ## Requirements
 
